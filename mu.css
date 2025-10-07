@@ -1,0 +1,68 @@
+#main{
+    height:auto;
+    width:100%;
+}
+
+header{
+    height:150px;
+    width:100%;
+    background-color: rgb(34, 104, 135);
+}
+
+#i1{
+    height: 100px;
+    padding:23px;
+}
+
+nav{
+    float:right;
+    padding:40px;
+}
+
+.a{
+    display:inline;
+}
+
+a{
+    font-size:20px;
+    color:white;
+    text-decoration: none;
+}
+
+#banner{
+    height:500px;
+    width:100%;
+}
+
+#container{
+    height:auto;
+    width:100%;
+}
+
+h1{
+    font-style: inherit;
+    color:rgb(34, 104, 135);
+    text-align-last: center ;
+    font-variant-caps: titling-caps;
+}
+
+p::first-letter{
+    font-weight:bold;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    
+}
+.class img{
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    height:80%;
+    width:80%;
+}
+

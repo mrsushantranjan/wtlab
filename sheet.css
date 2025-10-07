@@ -1,0 +1,47 @@
+*{
+    background-color: bisque;
+}
+body{
+    margin-top: auto;
+}
+.profile{
+    height:400px;
+    width:250px;
+
+}
+.wrap{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+
+}
+.xyz{
+    background: #4a90e2;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: 500;
+}
+@media (max-width: 768px) {
+    header .profile img{
+        width: 100px;
+        height: 100px;
+    }
+    header h1{
+        font-size: 24px;
+    }
+    .card h2{
+        font-size: 20px;
+    }
+    .Skill-grid{
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    }
+}
+@media (max-width:480px) {
+    body{
+        font-size: 14px;
+    }
+    header h1{
+        font-size: 20px;
+    }
+}

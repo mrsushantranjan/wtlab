@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Employee Registration Form</title>
+</head>
+<body bgcolor="#cdefff">
+
+    <h1 align="center" bgcolor="#4CAF50">
+        <font color="white">Employee Registration Form</font>
+    </h1>
+
+    <form>
+        <table border="0" align="center" cellpadding="8">
+            <!-- Personal Details -->
+            <tr>
+                <td><b>Employee Name</b></td>
+                <td><input type="text" name="fname" placeholder="Enter Full Name" required></td>
+            </tr>
+            <tr>
+                <td><b>Employee ID</b></td>
+                <td><input type="text" name="Id" placeholder="Enter Employee ID" required></td>
+            </tr>
+            <tr>
+                <td><b>Email</b></td>
+                <td><input type="email" placeholder="example@company.com" required></td>
+            </tr>
+            <tr>
+                <td><b>Contact No.</b></td>
+                <td><input type="text" name="Mobile" maxlength="10" placeholder="Enter 10-digit number"></td>
+            </tr>
+            <tr>
+                <td><b>Nationality</b></td>
+                <td>
+                    <select>
+                        <option>Indian</option>
+                        <option>Japanese</option>
+                        <option>South Sudanese</option>
+                        <option>American</option>
+                        <option>Kenyan</option>
+                        <option>Italian</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><b>Gender</b></td>
+                <td>
+                    <input type="radio" name="Gender"> Male
+                    <input type="radio" name="Gender"> Female
+                </td>
+            </tr>
+
+            <!-- Education Section -->
+            <tr>
+                <td colspan="2" align="center" bgcolor="#d1ffd1"><b>Education & Experience</b></td>
+            </tr>
+            <tr>
+                <td><b>Education</b></td>
+                <td><input type="text" placeholder="e.g. B.Tech, M.Sc" required></td>
+            </tr>
+            <tr>
+                <td><b>Experience</b></td>
+                <td><input type="text" placeholder="e.g. 3 years"></td>
+            </tr>
+
+            <!-- Job Details Section -->
+            <tr>
+                <td colspan="2" align="center" bgcolor="#fff3b0"><b>Job Details</b></td>
+            </tr>
+            <tr>
+                <td><b>Designation</b></td>
+                <td><input type="text" placeholder="e.g. Web Developer"></td>
+            </tr>
+            <tr>
+                <td><b>Location</b></td>
+                <td><input type="text" placeholder="e.g. New Delhi"></td>
+            </tr>
+            <tr>
+                <td><b>Salary</b></td>
+                <td><input type="text" placeholder="e.g. 50000"></td>
+            </tr>
+
+            <!-- Buttons -->
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+</html>
